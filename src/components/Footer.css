@@ -1,0 +1,74 @@
+.coffee-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid #ffc107;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 28px;
+    color: #ffc107;
+    text-shadow: 0 0 10px #ffc107;
+  }
+  
+  .footer-logo p {
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  .footer-links h3,
+  .footer-socials h3 {
+    color: #ffc107;
+    text-shadow: 0 0 8px #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 6px 0;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #ffc107;
+    text-shadow: 0 0 5px #ffc107;
+  }
+  
+  .footer-socials .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .footer-socials .social-icons a:hover {
+    color: #ffc107;
+    text-shadow: 0 0 8px #ffc107;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  

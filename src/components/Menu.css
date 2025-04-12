@@ -1,0 +1,63 @@
+
+#menu {
+    background-color: #000;
+    color: #fff;
+    
+  }
+  
+  .card {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-body {
+    background-color: #1d1d1d;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .card-title {
+    color: #ffc107;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff9100;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffb300;
+    color: #fff;
+    text-shadow: 0 0 10px #ff6f00;
+  }
+  
+  .coffee-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .coffee-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(255, 255, 255, 0.1);
+  }
+  
