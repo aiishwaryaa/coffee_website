@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ContactPage.css"; // Custom CSS for Contact Page
+import "./ContactPage.css"; 
 
 const ContactPage = () => {
   const [name, setName] = useState("");

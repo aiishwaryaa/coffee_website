@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./OrderPage.css"; // Custom CSS file for styling
+import "./OrderPage.css"; 
 
 const OrderPage = () => {
   const [selectedCoffee, setSelectedCoffee] = useState("");

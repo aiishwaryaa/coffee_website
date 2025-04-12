@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./HeroSection.css";
+import { Link } from 'react-router-dom';
+
 
 function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -40,7 +42,8 @@ function HeroSection() {
         <div className="hero-content">
           <h1>Brewed to Perfection</h1>
           <p>Where every cup tells a story ☕</p>
-          <a href="#order" className="hero-btn">Order Now</a>
+          <Link to="/menu" className="hero-btn">Explore Menu</Link>
+
         </div>
       </section>
 

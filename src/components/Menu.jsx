@@ -1,5 +1,5 @@
 import React from 'react';
-import './Menu.css'; // for custom hover effects
+import './Menu.css'; 
 import { useNavigate } from 'react-router-dom';
 const coffeeData = [
     {
